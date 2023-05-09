@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-task-game/static/css/main.e18b8ef0.css",
+    "main.css": "/react-task-game/static/css/main.b29c12d1.css",
     "main.js": "/react-task-game/static/js/main.d365c90d.js",
     "static/js/787.81eb91f9.chunk.js": "/react-task-game/static/js/787.81eb91f9.chunk.js",
     "index.html": "/react-task-game/index.html",
-    "main.e18b8ef0.css.map": "/react-task-game/static/css/main.e18b8ef0.css.map",
+    "main.b29c12d1.css.map": "/react-task-game/static/css/main.b29c12d1.css.map",
     "main.d365c90d.js.map": "/react-task-game/static/js/main.d365c90d.js.map",
     "787.81eb91f9.chunk.js.map": "/react-task-game/static/js/787.81eb91f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18b8ef0.css",
+    "static/css/main.b29c12d1.css",
     "static/js/main.d365c90d.js"
   ]
 }
