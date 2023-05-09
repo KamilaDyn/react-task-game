@@ -10,7 +10,7 @@
   align-content: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .cards {
     gap: 1rem;
   }

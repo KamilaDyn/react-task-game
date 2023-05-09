@@ -1,3 +1,7 @@
+# LIVE VIEW
+
+<a href="https://kamiladyn.github.io/react-task-game/">Life view</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
