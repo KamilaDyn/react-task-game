@@ -1,0 +1,12 @@
+.form {
+  order: 3;
+  width: 100%;
+}
+
+@media (min-width: 650px) {
+  .form {
+    order: 2;
+    width: auto;
+    flex-grow: 1;
+  }
+}

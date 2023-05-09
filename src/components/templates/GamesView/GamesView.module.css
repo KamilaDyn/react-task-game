@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100%;
+  padding-inline: 1rem;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-content: center;
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    gap: 1rem;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.no_element {
+  font-size: 1.5rem;
+  color: #fff;
+}

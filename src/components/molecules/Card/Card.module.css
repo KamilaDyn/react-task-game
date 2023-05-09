@@ -1,0 +1,21 @@
+.card {
+  max-width: 280px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  background-color: #1c1f22;
+}
+
+.card_img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.card_content {
+  color: #fff;
+  padding: 0.5rem 1rem 2rem;
+}
+.card_title {
+  line-height: 2.5rem;
+}

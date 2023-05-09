@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 2px;
+  background-color: #1c1f22;
+}
+
+@media (min-width: 650px) {
+  .header {
+    flex-wrap: no-wrap;
+  }
+}

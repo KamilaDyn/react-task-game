@@ -1,0 +1,21 @@
+.input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #1c1f22;
+  border-color: #292e32;
+  color: #fff;
+}
+
+.not_valid {
+  color: rgb(196, 1, 1);
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type='number'] {
+  -moz-appearance: textfield;
+}

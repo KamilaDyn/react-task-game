@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  height: 40px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+@media (min-width: 650px) {
+  .logo {
+    width: 20%;
+    height: 100%;
+  }
+}
+h1 {
+  color: #fff;
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 1.5rem;
+    display: block;
+  }
+}
+
+.image {
+  margin-right: 10px;
+  object-fit: cover;
+}

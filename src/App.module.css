@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100vw;
+}
+
+.app {
+  margin-bottom: 4rem;
+}
+.main {
+  padding-inline: 1rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

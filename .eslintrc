@@ -1,0 +1,67 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "testing-library",
+    "jest-dom",
+    "testing-library"
+  ],
+  "rules": {
+    "import/named": 0,
+    "no-console": 1,
+    "import/no-unresolved": "error",
+    "react/react-in-jsx-scope": "off",
+    "quotes": ["error", "single"],
+    "no-duplicate-imports": "error",
+    "@typescript-eslint/await-thenable": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "default-param-last": "off",
+    "@typescript-eslint/default-param-last": "off",
+    "testing-library/no-dom-import": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "paths": ["src"]
+      }
+    },
+    "react": {
+      "version": "18.x"
+    }
+  }
+}
